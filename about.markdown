@@ -1,17 +1,18 @@
 ---
-# layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About Me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This is where you can write about yourself, your project, or whatever you'd like your about page to contain. You can use Markdown formatting here.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Some things you might include:
 
-[jekyll-organization]: https://github.com/jekyll
+- Your background
+- Your interests
+- Your projects
+- Contact information
+
+Feel free to customize this page as much as you'd like!
