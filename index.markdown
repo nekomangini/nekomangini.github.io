@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# Welcome to Nekomangini's Blog
+<!-- # Welcome to Nekomangini's Blog -->
 
 <!-- {{ site.description }} -->
 
@@ -15,7 +15,8 @@ layout: default
 
   <article>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p>{{ post.date | date: "%B %d, %Y" }}</p>
+    <!-- Hide the date -->
+    <!-- <p>{{ post.date | date: "%B %d, %Y" }}</p> -->
     {% if post.description %}
       <p>{{ post.description }}</p>
     {% else %}
