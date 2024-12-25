@@ -2,6 +2,7 @@
 layout: post
 title: "Animation log 04"
 date: 2024-05-26T17:01:55+08:00
+description: ""
 Categories: blog
 ---
 
