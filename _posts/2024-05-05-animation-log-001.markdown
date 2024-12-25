@@ -2,7 +2,6 @@
 layout: post
 title: "Animation log 01"
 date: 2024-05-05T17:17:16+08:00
-Description: "Animation log"
 Categories: blog
 ---
 
@@ -14,7 +13,7 @@ To address this, I plan to extend the animation duration. By allowing more time 
 
 This adjustment aligns with my commitment to refining animation techniques and enhancing visual storytelling through meticulous attention to detail.
 
-<iframe width="640" height="360" src="https://youtu.be/GDPEELGnDeA?si=vbBGaknaTzdXPOnd" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GDPEELGnDeA?si=HxGTP50cC_qV9pHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Problems Identified:
 
