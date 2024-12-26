@@ -6,7 +6,7 @@ description: "stick figure animation"
 Categories: blog
 ---
 
-## Animation log 009
+### Stick figure animation
 
 For this animation practice, I enjoyed using the NLA editor so much that I decided to create two versions of the animations. I found the process engaging and insightful. However, I encountered some challenges when combining three action sequences in the NLA editor.
 

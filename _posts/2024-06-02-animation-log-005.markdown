@@ -6,7 +6,7 @@ description: "flour sack animation"
 Categories: blog
 ---
 
-## Animation log 005
+### Flour sack animation
 
 In this animation practice, I focused on animating a walk cycle for a flour sack character using a diagonal camera view instead of employing two camera angles. Upon review, I noticed that the flour sack exhibited excessive hunching of its back during the walk cycle. Moving forward, I intend to study and correct this issue in future animation practices.
 

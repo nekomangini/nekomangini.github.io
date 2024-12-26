@@ -6,7 +6,7 @@ description: "stick figure animation"
 Categories: blog
 ---
 
-## Animation log 011
+### Stick figure animation
 
 For this animation practice, I continued applying what I learned from my previous session. One of the key things I realized was the importance of getting the right timing and spacing between frames to create smooth and fluid animation.
 

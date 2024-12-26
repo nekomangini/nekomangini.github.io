@@ -6,7 +6,7 @@ description: "zelda character animation"
 Categories: blog
 ---
 
-## Animation log 012
+### Princess zelda character animation
 
 For this animation practice, I revisited the fundamentals by animating a walk cycle.
 This session provided valuable insight into core animation principles, although I encountered several challenges, particularly with more intricate parts of the character's movement.

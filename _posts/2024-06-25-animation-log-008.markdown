@@ -6,7 +6,7 @@ description: "stick figure animation"
 Categories: blog
 ---
 
-## Animation log 008
+### Stick figure animation
 
 In this animation practice, I experimented with using the NLA (Non-Linear Animation) editor to extend a simple animation I had created. Additionally, I learned how to use the graph editor to clean up and smooth out the animation. This practice was highly educational, and I gained significant insights into the animation process. In the future, I plan to use the action editor and the pose mode together with the NLA editor to speed up my animation workflow.
 

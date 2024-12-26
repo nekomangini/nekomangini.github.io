@@ -6,7 +6,7 @@ description: "stick figure animation"
 Categories: blog
 ---
 
-## Animation log 007
+### Stick figure animation
 
 In this animation practice, I started by creating a storyboard before proceeding to the animation phase. However, I found myself deviating from the storyboard as I realized there were missing elements in my animations, particularly regarding body mechanics. Despite this, the exercise was highly educational, providing valuable insights into the importance of storyboarding and the nuances of body mechanics.
 

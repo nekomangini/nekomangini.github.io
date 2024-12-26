@@ -6,7 +6,7 @@ description: "stick figure animation"
 Categories: blog
 ---
 
-## Animation log 006
+### Stick figure animation
 
 In this animation practice, I challenged myself by animating a punch animation involving two characters. Throughout the process, I encountered several challenges. Firstly, animating two characters simultaneously proved to be more complex than anticipated. Secondly, accurately capturing the impact and follow-through animations of the punch posed additional difficulties. To tackle these challenges, I employed a combination of layered animation and straight-ahead animation techniques.
 

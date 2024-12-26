@@ -6,7 +6,7 @@ description: "flour sack animation"
 Categories: blog
 ---
 
-## Animation log 004
+### Flour sack animation
 
 In this animation practice, I attempted to animate a walk cycle of a flour sack. Upon reflection, I realize that incorporating a second camera view, specifically showing the side profile of the walk cycle, would have provided a more comprehensive view. Moving forward, I intend to animate a more cartoony walk cycle in my next project.
 

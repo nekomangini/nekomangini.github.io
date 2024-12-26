@@ -6,7 +6,7 @@ description: "ball animation"
 Categories: blog
 ---
 
-## Animation log 003
+### Ball animation
 
 In this animation practice, I attempted to replicate the motion of a pendulum. Reflecting on the process, I realize that utilizing a physics simulator would have yielded more accurate results. Despite this, the experience was invaluable as it provided me with several key learnings.
 
