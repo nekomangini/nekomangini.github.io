@@ -2,7 +2,7 @@
 layout: post
 title: "Animation log 12"
 date: 2024-09-20T10:52:19+08:00
-description: ""
+description: "zelda character animation"
 Categories: blog
 ---
 

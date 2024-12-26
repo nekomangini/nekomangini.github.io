@@ -2,7 +2,7 @@
 layout: post
 title: "Animation log 09"
 date: 2024-07-01T10:34:25+08:00
-description: ""
+description: "stick figure animation"
 Categories: blog
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Animation log 05"
 date: 2024-06-02T17:04:00+08:00
-description: ""
+description: "flour sack animation"
 Categories: blog
 ---
 
