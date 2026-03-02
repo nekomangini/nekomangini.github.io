@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.LanguageCode }}">
 
 <head>
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta charset="utf-8">
+  <title>
+    {{ if .IsHome }}
+    {{ .Site.Title }}
+    {{ else }}
+    {{ .Site.Title }} | {{ .Title }}
+    {{ end }}
+  </title>
   <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="icon" type="image/png" href="/cat.png">
 </head>
 
 <body data-theme="neko">
