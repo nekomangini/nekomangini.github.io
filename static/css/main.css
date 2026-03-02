@@ -1,0 +1,25 @@
+:root {
+  --bg: #1a1b26;
+  --fg: #a9b1d6;
+  --accent: #bb9af7;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'JetBrains Mono', monospace;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+pre {
+  border: 1px solid #333;
+  padding: 10px;
+  border-radius: 5px;
+}
