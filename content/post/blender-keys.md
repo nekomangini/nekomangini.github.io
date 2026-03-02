@@ -1,6 +1,6 @@
 +++
 date = '2024-09-17 14:00:14 +0800'
-draft = true
+draft = false
 title = 'Blender Keys'
 description = "A Flutter application that lists all keyboard shortcuts for Blender"
 +++
