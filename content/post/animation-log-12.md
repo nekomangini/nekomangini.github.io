@@ -1,6 +1,6 @@
 +++
 date = '2024-09-20T10:52:19+08:00'
-draft = true
+draft = false
 title = 'Animation Log 12'
 description = "zelda character animation"
 +++

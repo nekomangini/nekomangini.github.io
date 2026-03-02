@@ -1,6 +1,6 @@
 +++
 date = '2024-05-26T17:01:55+08:00'
-draft = true
+draft = false
 title = 'Animation Log 04'
 description = "flour sack animation"
 +++
