@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body data-theme="neko">
+  <nav>
+    <a href="/"><strong>Home</strong></a> | <a href="/post/">Archive</a>
+  </nav>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+
+</html>
