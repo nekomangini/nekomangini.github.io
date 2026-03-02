@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Nekomangini blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 10:52:19 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 01:42:10 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From openSUSE to NixOS: A Migration Story</title>
+      <link>http://localhost:1313/post/from-opensuse-to-nixos/</link>
+      <pubDate>Tue, 03 Mar 2026 01:42:10 +0800</pubDate>
+      <guid>http://localhost:1313/post/from-opensuse-to-nixos/</guid>
+      <description>&lt;p&gt;The last time I updated this blog was back in September 2024. If you’ve been wondering where I disappeared to, the answer is simple: I fell deep down the Neovim and Emacs rabbit holes. What started as &amp;ldquo;just a few tweaks&amp;rdquo; to my dotfiles turned into a month-long obsession with perfecting my development environment. Since then, my setup has evolved even further—I&amp;rsquo;ve actually switched from Neovim to &lt;strong&gt;Helix&lt;/strong&gt; for my main editing, while still keeping Emacs around specifically for the power of &lt;strong&gt;Org-mode&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Animation Log 12</title>
       <link>http://localhost:1313/post/animation-log-12/</link>

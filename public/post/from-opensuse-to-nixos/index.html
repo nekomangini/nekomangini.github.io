@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>
+    
+    Nekomangini blog | From openSUSE to NixOS: A Migration Story
+    
+  </title>
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="icon" type="image/png" href="/cat.png">
+</head>
+
+<body data-theme="neko">
+  <nav>
+    <a href="/"><strong>Home</strong></a> | <a href="/post/">Archive</a>
+  </nav>
+  <main>
+    
+<article>
+  <header>
+    <h1>From openSUSE to NixOS: A Migration Story</h1>
+    <time>March 3, 2026</time>
+  </header>
+
+  <hr>
+
+  <div class="post-body">
+    <p>The last time I updated this blog was back in September 2024. If you’ve been wondering where I disappeared to, the answer is simple: I fell deep down the Neovim and Emacs rabbit holes. What started as &ldquo;just a few tweaks&rdquo; to my dotfiles turned into a month-long obsession with perfecting my development environment. Since then, my setup has evolved even further—I&rsquo;ve actually switched from Neovim to <strong>Helix</strong> for my main editing, while still keeping Emacs around specifically for the power of <strong>Org-mode</strong>.</p>
+<h2 id="the-leap-to-nixos">The Leap to NixOS</h2>
+<p>In October 2025, I finally made the leap from openSUSE to <strong>NixOS</strong>. I’ve always had a soft spot for openSUSE—it’s incredibly stable and served me well for a long time. However, I eventually hit a breaking point with my hardware configuration.</p>
+<p>As an Nvidia user, I dealt with broken drivers after kernel updates one too many times. If you’ve ever tried to maintain Nvidia drivers on a traditional Linux distro, you know exactly what a pain it can be. NixOS offered a way out through its declarative configuration; being able to roll back to a working &ldquo;generation&rdquo; if a driver update fails is a total game-changer for my peace of mind. To be fair, openSUSE also has rollback features (via Snapper), but I never quite learned how to use them properly—NixOS just made the process feel more intuitive for my workflow.</p>
+<h2 id="a-change-in-workflow-from-jekyll-to-hugo">A Change in Workflow: From Jekyll to Hugo</h2>
+<p>The migration to NixOS didn&rsquo;t just change my OS; it changed how I blog. On my previous setup, I used <strong>Jekyll</strong>, which relies heavily on Ruby and various Gems. Trying to manage those Ruby dependencies and environments within the Nix ecosystem became a massive headache. It felt like I was fighting my tools just to write a simple post.</p>
+<p>That frustration led me to officially migrate the site to <strong>Hugo</strong>. While I briefly considered Zola (mostly because it’s written in Rust and I love the speed), I ultimately stuck with Hugo. Its build times are nearly instantaneous, and the community support is massive, making it much easier to customize my &ldquo;Neko&rdquo; theme exactly how I want it.</p>
+<h2 id="whats-next">What’s Next?</h2>
+<p>Since the switch, I’ve also spent quite a bit of time curating my own personal wallpaper repository, <a href="https://nekopaper.netlify.app">nekopaper</a>, which has been a fun side project to keep my desktop aesthetic in sync with my new NixOS setup. You can also check out the <a href="https://github.com/nekomangini/nekopaper">nekopaper repository</a> directly.</p>
+<p>I’m currently drafting a much more detailed &ldquo;Deep Dive&rdquo; post about my experience as a NixOS &ldquo;noob&rdquo;—from the initial confusion of Nix Flakes to the satisfaction of a perfectly working <code>configuration.nix</code>. Stay tuned for that!</p>
+
+  </div>
+
+  <footer>
+    <br>
+    <a href="/">← Back to Home</a>
+  </footer>
+</article>
+
+  </main>
+</body>
+
+</html>
