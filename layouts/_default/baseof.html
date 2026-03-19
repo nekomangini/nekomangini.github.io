@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
     {{ if .IsHome }}
     {{ .Site.Title }}
@@ -16,12 +17,21 @@
 </head>
 
 <body data-theme="neko">
-  <nav>
-    <a href="/"><strong>Home</strong></a> | <a href="/post/">Archive</a>
-  </nav>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
+  <div class="container">
+    <nav>
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
+        {{ .Name }}
+      </a>
+      {{ end }}
+    </nav>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+      <p>&copy; 2024 Nekomangini</p>
+    </footer>
+  </div>
 </body>
 
 </html>

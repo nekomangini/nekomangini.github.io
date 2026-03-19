@@ -8,8 +8,13 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: 'JetBrains Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -18,8 +23,31 @@ a {
   text-decoration: none;
 }
 
+nav a {
+  padding: 10px;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 pre {
   border: 1px solid #333;
   padding: 10px;
   border-radius: 5px;
+  overflow-x: auto;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
 }
