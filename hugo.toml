@@ -5,3 +5,15 @@ title = 'Nekomangini blog'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/post"
+    weight = 2
