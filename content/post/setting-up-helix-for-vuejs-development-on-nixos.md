@@ -125,12 +125,3 @@ Adding `comment-token = "//"` to the language config forces the use of double-sl
 ## Final Thoughts
 
 The steep learning curve of NixOS pays off once you have a configuration that is entirely reproducible. Now, no matter what machine I’m on, my Vue environment is just a `nixos-rebuild switch` away.
-
-### Support my Journey
-
-If you enjoyed this post and want to support my descent into Linux madness, you can find me here:
-
-- [Buy Me a Coffee](https://buymeacoffee.com/nekomangini)
-- [Support on Ko-fi](https://ko-fi.com/nekomangini)
-
-Every bit of support helps keep the nix-builds running!
