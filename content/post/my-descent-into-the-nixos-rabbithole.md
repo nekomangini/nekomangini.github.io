@@ -263,12 +263,3 @@ After a few months in the rabbit hole, here are my main takeaways for anyone sta
 ## Final Thoughts
 
 NixOS is a steep learning curve, but the ability to reproduce my entire system from a few files is worth the struggle. If you have any tips on how to clean up a messy flake, let me know! Check out my full configuration here: [neko-dotfiles](https://github.com/nekomangini/neko-dotfiles)
-
-### Support my Journey
-
-If you enjoyed this post and want to support my descent into Linux madness, you can find me here:
-
-- [Buy Me a Coffee](https://buymeacoffee.com/nekomangini)
-- [Support on Ko-fi](https://ko-fi.com/nekomangini)
-
-Every bit of support helps keep the nix-builds running!
