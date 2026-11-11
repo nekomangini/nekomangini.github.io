@@ -380,6 +380,16 @@ a.tag:hover {
     }
 }
 
+/* Long inline code (options, paths) wraps instead of widening the page */
+:not(pre) > code {
+    overflow-wrap: break-word; /* fallback */
+    overflow-wrap: anywhere;
+}
+
+.post-body {
+    overflow-wrap: break-word;
+}
+
 /* Code block scrollbars */
 pre.chroma {
     scrollbar-width: thin; /* Firefox, Chromium 121+ */
