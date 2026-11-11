@@ -73,7 +73,7 @@ Everything built, I logged in, and I saw nothing.
 
 My first log from `start-hyprland` looked clean, with one harmless warning. That was misleading. Near the top it prints:
 
-```
+```text
 Disabling stdout logs! Check the log for further logs.
 ```
 
@@ -87,7 +87,7 @@ When I went to read the log, `/run/user/1000/hypr` didn't exist. `/run/user/<uid
 
 From that SSH session I launched `start-hyprland` to see what happened, and it crashed with:
 
-```
+```text
 Could not connect to socket /run/seatd.sock
 Backend 'logind' failed to open seat, skipping
 libseat: Couldn't open device at /dev/dri/card1
@@ -105,7 +105,7 @@ loginctl show-session $XDG_SESSION_ID -p Type -p Active -p Seat
 
 I switched to a real TTY with an SSH session still open, started Hyprland, and read the log. Now it had a seat (`Seat opened with backend 'logind'`), found my real monitors and my keyboard and mice, and showed this:
 
-```
+```text
 drm: Starting backend for /dev/dri/card0, with driver simpledrm
 drm: gpu /dev/dri/card0 becomes primary drm
 CDRMRenderer(drm): Can't create renderer, no matching devices found
@@ -114,7 +114,7 @@ drm: Failed to initialize renderer state for /dev/dri/card0
 
 There were two GPU devices:
 
-```
+```text
 pci-0000:01:00.0-card -> ../card1                                   (the real NVIDIA GPU)
 pci-0000:01:00.0-platform-simple-framebuffer.0-card -> ../card0     (firmware framebuffer)
 ```
