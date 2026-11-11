@@ -1,7 +1,9 @@
 +++
 date = '2026-06-02T17:55:03+08:00'
 draft = false
-title = 'Setting Up Kdeconnect on NixOS'
+title = 'Setting Up KDE Connect on NixOS'
+tags = ['nixos', 'kde-connect', 'linux']
+description = "Setting up KDE Connect on NixOS by splitting the firewall rules and the Home Manager client configuration."
 +++
 
 No matter what desktop environment or window manager I use, KDE Connect is an absolute necessity. Clipboard sharing, receiving phone notifications on my desktop, and using my phone as an emergency trackpad are features I simply cannot live without.

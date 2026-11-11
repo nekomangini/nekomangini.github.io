@@ -1,19 +1,35 @@
-baseURL = 'https://nekomangini.github.io'
+baseURL = 'https://nekomangini.github.io/'
 locale = 'en-us'
 title = 'Nekomangini blog'
+enableRobotsTXT = true
+
+[params]
+  author = 'Nekomangini'
+  description = 'Notes on NixOS, Linux ricing, Helix, Emacs, and animation.'
+  since = 2024
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "archive"
-    name = "Archive"
-    url = "/post"
-    weight = 2
+[taxonomies]
+  tag = 'tags'
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[[menus.main]]
+  identifier = 'home'
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menus.main]]
+  identifier = 'archive'
+  name = 'Archive'
+  url = '/post/'
+  weight = 2

@@ -2,10 +2,11 @@
 date = '2024-07-29T06:57:33+08:00'
 draft = false
 title = 'Animation Log 10'
-description = "zelda character animation"
+tags = ['animation', 'blender']
+description = "Animation Log 10: a first attempt at rotomation on a Princess Zelda rig, and why the curves needed more polish."
 +++
 
-### Princess zelda character animation
+## Princess zelda character animation
 
 For this animation practice, I tried rotomation. It was challenging because it's a new technique for me. I also noticed that my animation was not fluid or smooth enough, likely because I did not polish the curve editor sufficiently. In the future, I plan to continue practicing rotomation.
 

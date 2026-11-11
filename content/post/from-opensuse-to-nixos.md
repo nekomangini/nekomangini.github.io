@@ -2,6 +2,8 @@
 date = '2026-03-03T01:42:10+08:00'
 draft = false
 title = 'From openSUSE to NixOS: A Migration Story'
+tags = ['nixos', 'linux', 'hugo']
+description = "Why I left openSUSE for NixOS after one too many broken Nvidia drivers, and how that led me to move this blog from Jekyll to Hugo."
 +++
 
 The last time I updated this blog was back in September 2024. If you’ve been wondering where I disappeared to, the answer is simple: I fell deep down the Neovim and Emacs rabbit holes. What started as "just a few tweaks" to my dotfiles turned into a month-long obsession with perfecting my development environment. Since then, my setup has evolved even further—I've actually switched from Neovim to **Helix** for my main editing, while still keeping Emacs around specifically for the power of **Org-mode**.

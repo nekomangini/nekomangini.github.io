@@ -1,0 +1,7 @@
+{{ define "main" }}
+<div class="error-page">
+  <h1>404 &mdash; Page not found</h1>
+  <p>That page doesn&rsquo;t exist. It may have moved, or the link that brought you here may be broken.</p>
+  <p><a href="{{ "/" | relURL }}">Home</a> &middot; <a href="{{ "/post/" | relURL }}">All posts</a></p>
+</div>
+{{ end }}

@@ -2,10 +2,11 @@
 date = '2024-09-20T10:52:19+08:00'
 draft = false
 title = 'Animation Log 12'
-description = "zelda character animation"
+tags = ['animation', 'blender']
+description = "Animation Log 12: revisiting a Zelda walk cycle, and the trouble with animated wrists and fingers."
 +++
 
-### Princess zelda character animation
+## Princess zelda character animation
 
 For this animation practice, I revisited the fundamentals by animating a walk cycle.
 This session provided valuable insight into core animation principles, although I encountered several challenges, particularly with more intricate parts of the character's movement.

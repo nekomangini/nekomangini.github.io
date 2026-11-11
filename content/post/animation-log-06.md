@@ -2,10 +2,11 @@
 date = '2024-06-09T17:05:11+08:00'
 draft = false
 title = 'Animation Log 06'
-description = "stick figure animation"
+tags = ['animation', 'blender']
+description = "Animation Log 06: a two-character punch, mixing layered and straight-ahead animation."
 +++
 
-### Stick figure animation
+## Stick figure animation
 
 In this animation practice, I challenged myself by animating a punch animation involving two characters. Throughout the process, I encountered several challenges. Firstly, animating two characters simultaneously proved to be more complex than anticipated. Secondly, accurately capturing the impact and follow-through animations of the punch posed additional difficulties. To tackle these challenges, I employed a combination of layered animation and straight-ahead animation techniques.
 

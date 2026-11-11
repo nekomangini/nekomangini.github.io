@@ -2,10 +2,11 @@
 date = '2024-05-05T17:17:16+08:00'
 draft = false
 title = 'Animation Log 01'
-description = "ball animation"
+tags = ['animation', 'blender']
+description = "Animation Log 01: a bouncing ball animation in Blender where the bounce lacked weight and elasticity."
 +++
 
-### Ball animation
+## Ball animation
 
 As you can see in the video below, during my recent animation project involving a soft ball, I encountered an issue with the bounce dynamics. The ball's movement lacked the desired degree of realism and elasticity, which detracted from the overall impact of the animation.
 

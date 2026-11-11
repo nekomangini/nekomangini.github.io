@@ -2,10 +2,11 @@
 date = '2024-06-16T16:17:25+08:00'
 draft = false
 title = 'Animation Log 07'
-description = "stick figure animation"
+tags = ['animation', 'blender']
+description = "Animation Log 07: storyboarding before animating a stick figure sequence, and the body mechanics I missed."
 +++
 
-### Stick figure animation
+## Stick figure animation
 
 In this animation practice, I started by creating a storyboard before proceeding to the animation phase. However, I found myself deviating from the storyboard as I realized there were missing elements in my animations, particularly regarding body mechanics. Despite this, the exercise was highly educational, providing valuable insights into the importance of storyboarding and the nuances of body mechanics.
 
