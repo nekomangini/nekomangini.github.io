@@ -2,14 +2,15 @@
 date = '2024-06-02T17:04:00+08:00'
 draft = false
 title = 'Animation Log 05'
-description = "flour sack animation"
+tags = ['animation', 'blender']
+description = "Animation Log 05: another flour sack walk cycle from a diagonal view, with a hunched back to fix."
 +++
 
-### Flour sack animation
+## Flour sack animation
 
 In this animation practice, I focused on animating a walk cycle for a flour sack character using a diagonal camera view instead of employing two camera angles. Upon review, I noticed that the flour sack exhibited excessive hunching of its back during the walk cycle. Moving forward, I intend to study and correct this issue in future animation practices.
 
-{{< youtube J7d1Zu0uhL4>}}
+{{< youtube J7d1Zu0uhL4 >}}
 
 What I learned:
 

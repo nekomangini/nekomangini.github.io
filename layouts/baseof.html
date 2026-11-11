@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  <div class="container">
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Main">
+        {{ $current := .RelPermalink }}
+        {{ range site.Menus.main }}
+        <a href="{{ .URL }}"{{ if or (eq $current .URL) ($.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </header>
+    <main id="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer class="site-footer">
+      <p>
+        &copy; {{ site.Params.since }}&ndash;{{ now.Year }} {{ site.Params.author }}
+        &middot; <a href="{{ "index.xml" | relURL }}">RSS</a>
+        &middot; <a href="https://github.com/nekomangini">GitHub</a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>

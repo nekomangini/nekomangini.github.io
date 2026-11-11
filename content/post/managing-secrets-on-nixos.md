@@ -1,7 +1,9 @@
 +++
 date = '2026-05-08T12:07:22+08:00'
 draft = false
-title = 'Managing Secrets on Nixos: My Journey with Agenix'
+title = 'Managing Secrets on NixOS: My Journey with Agenix'
+tags = ['nixos', 'nix', 'agenix', 'security']
+description = "Setting up Agenix on NixOS to keep secrets and project paths out of a public flake, including the parts that tripped me up."
 +++
 
 As my NixOS configuration grows, so does the need to handle sensitive data securely. I’ve recently started using **Agenix** to manage secrets, specifically to hide project folder paths.
@@ -12,7 +14,7 @@ The transition hasn't been without its hurdles, particularly setting up Agenix a
 
 As I continue to "rice" my system and automate my workflows, I’ve hit a common roadblock: how to handle sensitive data without leaking it to my public GitHub repository. My latest challenge involves using **Agenix** to hide project folder paths for testing purposes.
 
-### Flake Configuration & CLI Installation
+## Flake Configuration & CLI Installation
 
 Here is how I structured my `flake.nix` to ensure Agenix is available across my desktop and my other configurations:
 
@@ -59,9 +61,9 @@ My goal was to pass an age-encrypted secret (containing a project path) into a *
 
 ### Why Nix Can't See Your Secrets Folder
 
-Initially, I kept my `secrets/` folder outside my dotfiles repository --- sitting somewhere in my home directory. When I tried referencing it with a relative path like `../../../secrets/` in my Nix configuration, the build simply failed. The folder wasn't found
+Initially, I kept my `secrets/` folder outside my dotfiles repository — sitting somewhere in my home directory. When I tried referencing it with a relative path like `../../../secrets/` in my Nix configuration, the build simply failed. The folder wasn't found
 
-The reason is straightforward: **Nix Flakes only see files that are tracked by git**. If a file isn't added to the repository, it doesn't exist from the flakes perspective --- no matter where it actually lives on disk. This has nothing to do with `--impure` mode;it's simply how the Nix sandbox works with flakes.
+The reason is straightforward: **Nix Flakes only see files that are tracked by git**. If a file isn't added to the repository, it doesn't exist from the flakes perspective — no matter where it actually lives on disk. This has nothing to do with `--impure` mode; it's simply how the Nix sandbox works with flakes.
 
 The fix was simple: move the `secrets/` folder directly into my dotfiles repository and run `git add secrets/`. Since the `.age` files are encrypted, committing them to a public repo is completely safe -- they are useless to anyone without the corresponding private key.
 
@@ -73,7 +75,7 @@ Here are the steps I took to get the environment ready:
 2.  **Secrets Definition**: I created a directory named _secrets/_ to store **secrets.nix** and mapped my SSH IDs and host keys within `secrets.nix` to authorize decryption for my specific machine.
 3.  **Creating secrets**: Create a secret file `tmux-manager-paths.age`.
 
-    ```nix
+    ```sh
     cd secrets/
     agenix -e tmux-manager-paths.age
     ```

@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article>
+  <header class="post-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+    <p class="meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <span aria-hidden="true">&middot;</span> {{ .ReadingTime }} min read
+      {{ with .Params.tags }}
+      <span class="tags">
+        {{ range . }}<a class="tag" href="{{ (printf "/tags/%s/" (. | urlize)) | relURL }}">{{ . }}</a> {{ end }}
+      </span>
+      {{ end }}
+    </p>
+  </header>
+
+  {{ if gt (len .TableOfContents) 120 }}
+  <nav class="toc" aria-label="Table of contents">
+    <details{{ if gt .WordCount 900 }} open{{ end }}>
+      <summary>Contents</summary>
+      {{ .TableOfContents }}
+    </details>
+  </nav>
+  {{ end }}
+
+  <div class="post-body">
+    {{ .Content }}
+    {{ partial "support.html" . }}
+  </div>
+
+  <nav class="post-nav" aria-label="Post navigation">
+    {{ with .PrevInSection }}<a href="{{ .RelPermalink }}" rel="prev">&larr; {{ .Title }}</a>{{ end }}
+    {{ with .NextInSection }}<a href="{{ .RelPermalink }}" rel="next">{{ .Title }} &rarr;</a>{{ end }}
+  </nav>
+
+  <p class="back"><a href="{{ "/post/" | relURL }}">&larr; All posts</a></p>
+</article>
+{{ end }}

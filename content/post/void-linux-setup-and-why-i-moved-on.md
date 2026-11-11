@@ -2,6 +2,8 @@
 date = '2026-10-27T11:17:24+08:00'
 draft = false
 title = 'Void Linux Setup and Why I Moved On'
+tags = ['void-linux', 'linux', 'i3']
+description = "Installing Void Linux with i3 on a 2GB IdeaPad, and why I moved on from it."
 +++
 
 My laptop is a Lenovo IdeaPad 120S with only 2GB of RAM — not exactly a powerhouse.

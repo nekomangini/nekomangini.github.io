@@ -2,10 +2,11 @@
 date = '2024-05-12T17:52:09+08:00'
 draft = false
 title = 'Animation Log 02'
-description = "ball animation"
+tags = ['animation', 'blender']
+description = "Animation Log 02: animating a bouncing ball from a hard ball reference, and what it taught me about motion."
 +++
 
-### Ball animation
+## Ball animation
 
 For this animation project, I animated a bouncing ball using a hard ball as reference. Drawing inspiration from its distinct movement characteristics, I meticulously crafted the animation to achieve realistic dynamics. I am pleased with the outcome, which effectively captures the physicality of the hard ball. This experience deepened my understanding of motion principles and strengthened my skills in translating real-world physics into animation
 

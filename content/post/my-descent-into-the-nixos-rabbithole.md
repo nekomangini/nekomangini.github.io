@@ -1,7 +1,9 @@
 +++
 date = '2026-04-24T23:14:26+08:00'
 draft = false
-title = 'My Descent Into the Nixos Rabbithole: A Retrospective'
+title = 'My Descent Into the NixOS Rabbithole: A Retrospective'
+tags = ['nixos', 'nix', 'flakes']
+description = "A beginner's retrospective on moving my NixOS configuration out of /etc, into Git, and onto flakes."
 +++
 
 I’ve been using NixOS since October 2025. I’ll be honest: I’m still very much a beginner, so if you see me doing something "the wrong way," I am more than happy to be corrected! To keep my head above water, I’ve been living by the [NixOS & Flakes Book](https://nixos-and-flakes.thiscute.world/nixos-with-flakes/get-started-with-nixos).
@@ -12,11 +14,11 @@ At first, I kept my NixOS config in the standard `/etc/nixos/` directory. But as
 
 After some YouTube rabbit holes, I learned the secret: you can put your config anywhere as long as you use the right command. I moved everything to my [neko-dotfiles](https://github.com/nekomangini/neko-dotfiles) repository. Now, I run my updates like this:
 
-```nix
+```sh
 sudo nixos-rebuild switch --flake .#neko-desktop --show-trace
 ```
 
-### Where does `neko-desktop` come from?
+## Where does `neko-desktop` come from?
 
 For a while, I thought this command was just looking at the hostname I set in my `configuration.nix`. While I do have `networking.hostName = "neko-desktop";` defined there, the `#neko-desktop` in the command actually refers to the **output name** defined in my `flake.nix`.
 

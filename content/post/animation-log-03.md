@@ -2,10 +2,11 @@
 date = '2024-05-19T17:33:06+08:00'
 draft = false
 title = 'Animation Log 03'
-description = "ball animation"
+tags = ['animation', 'blender']
+description = "Animation Log 03: hand-animating a pendulum swing in Blender, and why a physics simulator would have helped."
 +++
 
-### Ball animation
+## Ball animation
 
 In this animation practice, I attempted to replicate the motion of a pendulum. Reflecting on the process, I realize that utilizing a physics simulator would have yielded more accurate results. Despite this, the experience was invaluable as it provided me with several key learnings.
 

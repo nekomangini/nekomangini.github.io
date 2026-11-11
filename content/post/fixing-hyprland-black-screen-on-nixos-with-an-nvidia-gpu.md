@@ -1,7 +1,7 @@
 +++
 date = '2026-11-10T13:27:11+08:00'
 draft = false
-title = 'Fixing Hyprland Black Screen on Nixos With an Nvidia Gpu'
+title = 'Fixing Hyprland Black Screen on NixOS With an NVIDIA GPU'
 tags = ["nixos", "hyprland", "nvidia", "wayland", "home-manager", "noctalia"]
 description = "How I went from a black screen to a working Hyprland + Noctalia setup: Home Manager symlink conflicts, misleading logs, and a firmware framebuffer that stole the primary GPU slot."
 +++
@@ -139,7 +139,7 @@ Card numbers aren't guaranteed to be stable between boots, so if the black scree
 
 ## A leftover annoyance
 
-My editor flagged `Undefined global 'hl'` on every Lua file. It's cosmetic, because Hyprland injects `hl` at runtime. Adding a ` ---@diagnostic disable: undefined-global`  at the top of each lua file silences it:
+My editor flagged `Undefined global 'hl'` on every Lua file. It's cosmetic, because Hyprland injects `hl` at runtime. Adding `---@diagnostic disable: undefined-global` at the top of each lua file silences it:
 
 ```lua
 ---@diagnostic disable: undefined-global

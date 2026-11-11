@@ -1,7 +1,9 @@
 +++
 date = '2026-04-30T22:44:29+08:00'
 draft = false
-title = 'Setting Up Helix for Vuejs Development on Nixos'
+title = 'Setting Up Helix for Vue.js Development on NixOS'
+tags = ['nixos', 'helix', 'vuejs']
+description = "Getting Helix, the Vue language server and Prettier working together on NixOS with Home Manager."
 +++
 
 Following my move to NixOS and my shift toward **Helix** as my primary editor, I recently tackled the challenge of setting up a robust Vue.js development environment. While the [Helix Wiki](https://github.com/helix-editor/helix/wiki/Language-Server-Configurations#vue) provides a great starting point, NixOS adds a unique layer of complexity when it comes to locating plugins in the `/nix/store`.
@@ -41,7 +43,7 @@ To find it, I had to do a bit of "store-spelunking":
 find /nix/store/<your-hash>-vue-language-server-3.x.x -wholename "*/@vue/typescript-plugin"
 ```
 
-### The Solution (Nix Configuration)
+## The Solution (Nix Configuration)
 
 Instead of hardcoding a long, brittle path that changes every time the package updates, we can use Nix's string interpolation `${pkgs.vue-language-server}` to point directly to the store path dynamically.
 Here is the resulting `languages.toml` configuration:
