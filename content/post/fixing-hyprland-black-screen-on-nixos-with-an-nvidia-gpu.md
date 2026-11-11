@@ -33,7 +33,7 @@ If both modules try to produce a config, they fight over the same files. My old 
 
 I used `mkOutOfStoreSymlink` so I can edit the Lua files in my repo and reload without a rebuild. My first attempt symlinked the whole `~/.config/hypr` directory, and the build failed:
 
-```
+```text
 Error installing file '.config/hypr/hypridle.conf' outside $HOME
 ```
 

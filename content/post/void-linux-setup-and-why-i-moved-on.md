@@ -181,7 +181,7 @@ sudo rm /etc/sv/emacs-daemon/down
 ```
 
 Add to your i3 keybinds:
-```config
+```text
 bindsym $mod+e exec emacsclient --socket-name=void-nekomangini-emacsd -c -n
 ```
 ## Programming Languages
